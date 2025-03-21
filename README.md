@@ -1,7 +1,7 @@
 # Frontend Mentor - Results summary component
 
 ## Welcome!👋
-This is a solution of [FrontEnd Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)  this is my first project in css and html for improve my coding skills.
+This is a solution of [FrontEnd Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)  this is my first NPS project.
 
 ## Screenshot
 ![Project](https://github.com/user-attachments/assets/57d22369-1f00-45a1-ac2d-806f75abf43e)
