@@ -1,0 +1,164 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+/* Estilização do corpo da página */
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+/* Estilização do container principal */
+.container, .tks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Adiciona um leve efeito de hover ao container */
+.container:hover, .tks:hover {
+    transform: scale(1.02);
+}
+
+/* Estilização do título */
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8rem;
+}
+
+/* Estilização da imagem */
+.img {
+    border-radius: 100rem;
+    background-color: hsl(214, 19%, 20%);
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+}
+
+/* Lista dos números */
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    padding: 0.5rem 0;
+}
+
+/* Itens da lista (números) */
+li {
+    background-color: hsl(214, 19%, 26%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    font-size: 1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+/* Efeito ao passar o mouse */
+li:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Mantém o item selecionado mesmo após o hover */
+li.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Botão de envio */
+button {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: hsl(25, 100%, 63%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 166, 0, 0.3);
+}
+
+/* Efeito ao clicar no botão */
+button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+/* Mensagem de agradecimento */
+.tks p {
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+/* Exibição da nota escolhida */
+.selection {
+    background-color: hsl(214, 19%, 26%);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: hsl(25, 97%, 53%);
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Esconder elementos quando necessário */
+.hidden {
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+    .container, .tks {
+        max-width: 90%;
+        padding: 1.5rem;
+    }
+    li {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+    button {
+        font-size: 0.9rem;
+    }
+}
