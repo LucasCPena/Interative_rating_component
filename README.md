@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component
+# Frontend Mentor - Interactive rating
 
 ## Welcome!👋
 This is a solution of [FrontEnd Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)  this is my first NPS project.
