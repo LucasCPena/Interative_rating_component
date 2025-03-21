@@ -4,7 +4,7 @@
 This is a solution of [FrontEnd Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)  this is my first project in css and html for improve my coding skills.
 
 ## Screenshot
-![Project]([https://github.com/LucasCPena/Results-summary-component/assets/79058932/1175a26b-9a67-4af1-ad0b-4ce462e06258](https://github.com/user-attachments/assets/57d22369-1f00-45a1-ac2d-806f75abf43e))
+![Project](https://github.com/user-attachments/assets/57d22369-1f00-45a1-ac2d-806f75abf43e)
 
 ## Link
 Live Site URL:(https://interatctive-rating.netlify.app//) <br/>
